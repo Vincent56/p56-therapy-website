@@ -1,7 +1,3 @@
-import { ArrowRight } from "lucide-react";
-
-import { Button } from "@/components/ui/button";
-
 const Hero34 = () => {
   return (
     <section className="py-12 md:py-24 lg:py-32">
