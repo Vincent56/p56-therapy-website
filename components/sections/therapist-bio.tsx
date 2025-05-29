@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
+import { CardContent } from "@/components/ui/card";
 import { User } from "lucide-react";
 
 interface TherapistBioProps {
