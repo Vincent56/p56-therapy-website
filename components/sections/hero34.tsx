@@ -16,13 +16,7 @@ const Hero34 = () => {
               doloremque mollitia fugiat omnis! Porro facilis quo animi
               consequatur. Explicabo.
             </p>
-            {/* <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
-              <Button>
-                Primary
-                <ArrowRight className="size-4" />
-              </Button>
-              <Button variant="outline">Secondary</Button>
-            </div> */}
+
           </div>
           {/* <img
             src="/img/hero3.png"
