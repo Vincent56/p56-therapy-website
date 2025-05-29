@@ -14,14 +14,14 @@ interface Contact2Props {
 }
 
 const Contact2 = ({
-  title = "Contact Us",
+  title = "Contact",
   description = "We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
   phone = "(123) 34567890",
   email = "email@example.com",
   web = { label: "shadcnblocks.com", url: "https://shadcnblocks.com" },
 }: Contact2Props) => {
   return (
-    <section className="py-12 md:py-24 lg:py-32">
+    <section id="contact" className="py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-10 lg:flex-row lg:gap-20">
           <div className="mx-auto flex max-w-sm flex-col justify-between gap-10">

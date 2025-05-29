@@ -30,25 +30,31 @@ const LocationSpaceTabs = ({
   }
 }: LocationSpaceTabsProps) => {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section id="locatie" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col gap-4 text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Our Practice
-          </h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Discover our welcoming location and thoughtfully designed therapeutic space.
-          </p>
+      <div className="flex w-full flex-col items-center">
+          <div className="flex flex-col items-center space-y-4 text-center sm:space-y-6 md:max-w-3xl md:text-center">
+            <h2 className="text-3xl font-medium md:text-5xl">
+              Waar ik werk
+            </h2>
+
+            <p className="text-muted-foreground md:max-w-2xl">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              necessitatibus, culpa at vitae molestias tenetur explicabo.
+              Voluptatum amet architecto suscipit pariatur eligendi repellendus
+              mollitia dolore unde sint?
+            </p>
+          </div>
         </div>
 
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto mt-20 max-w-4xl">
           <Tabs defaultValue="location" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-8">
               <TabsTrigger value="location" className="text-base">
-                Location
+                De praktijkruimte
               </TabsTrigger>
               <TabsTrigger value="space" className="text-base">
-                Space
+                De locatie
               </TabsTrigger>
             </TabsList>
 
@@ -57,7 +63,7 @@ const LocationSpaceTabs = ({
                 <CardContent className="p-0">
                   <div className="grid gap-6 lg:grid-cols-2">
                     <div className="flex flex-col justify-center space-y-4 p-6 lg:p-8">
-                      <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">
+                      <h3 className="text-2xl font-medium tracking-tighter sm:text-3xl">
                         {location.title}
                       </h3>
                       <p className="text-muted-foreground leading-relaxed">
@@ -92,7 +98,7 @@ const LocationSpaceTabs = ({
                       />
                     </div>
                     <div className="flex flex-col justify-center space-y-4 p-6 lg:p-8 lg:order-1">
-                      <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">
+                      <h3 className="text-2xl font-medium tracking-tighter sm:text-3xl">
                         {space.title}
                       </h3>
                       <p className="text-muted-foreground leading-relaxed">

@@ -34,7 +34,7 @@ const feature = [
 
 const Feature15 = () => {
   return (
-    <section className="py-12 md:py-24 lg:py-32">
+    <section id="wat-ik-bied" className="py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex w-full flex-col items-center">
           <div className="flex flex-col items-center space-y-4 text-center sm:space-y-6 md:max-w-3xl md:text-center">

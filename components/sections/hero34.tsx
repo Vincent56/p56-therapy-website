@@ -8,9 +8,8 @@ const Hero34 = () => {
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-8 bg-muted-2 lg:grid-cols-2">
           <div className="flex flex-col items-center p-16 text-center lg:items-start lg:text-left">
-            <p>New Release</p>
             <h1 className="my-6 text-4xl font-bold text-pretty lg:text-6xl">
-              Welcome to Our Website
+              Welkom bij Praktijk 26
             </h1>
             <p className="mb-8 max-w-xl text-muted-foreground lg:text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig

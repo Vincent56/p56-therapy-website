@@ -19,13 +19,21 @@ const TherapistBio = ({
   specialties = [],
 }: TherapistBioProps) => {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section id="over-mij" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col gap-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Learn more about my approach to therapy and how I can help you on your journey.
-          </p>
+      <div className="flex w-full flex-col items-center">
+          <div className="flex flex-col items-center space-y-4 text-center sm:space-y-6 md:max-w-3xl md:text-center">
+            <h2 className="text-3xl font-medium md:text-5xl">
+              Over mij
+            </h2>
+
+            <p className="text-muted-foreground md:max-w-2xl">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              necessitatibus, culpa at vitae molestias tenetur explicabo.
+              Voluptatum amet architecto suscipit pariatur eligendi repellendus
+              mollitia dolore unde sint?
+            </p>
+          </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col justify-center space-y-4">
@@ -50,7 +58,7 @@ const TherapistBio = ({
               )}
             </div>
           </div>
-          <Card className="overflow-hidden">
+          <div className="overflow-hidden">
             <CardContent className="p-0">
               {image ? (
                 <Image
@@ -66,7 +74,7 @@ const TherapistBio = ({
                 </div>
               )}
             </CardContent>
-          </Card>
+          </div>
         </div>
       </div>
     </section>
