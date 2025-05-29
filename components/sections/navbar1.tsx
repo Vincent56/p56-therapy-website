@@ -66,7 +66,7 @@ const Navbar1 = ({
   ]
 }: Navbar1Props) => {
   return (
-    <section className="py-3 md:py-4 lg:py-6">
+    <section className="py-3 md:py-4 lg:py-6 bg-transparent">
       <div className="container px-4 md:px-6">
         {/* Desktop Menu */}
         <nav className="hidden lg:flex">
