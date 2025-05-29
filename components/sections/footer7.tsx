@@ -68,16 +68,10 @@ const defaultLegalLinks = [
 ];
 
 const Footer7 = ({
-  logo = {
-    url: "https://www.shadcnblocks.com",
-    src: "https://www.shadcnblocks.com/images/block/logos/shadcnblockscom-icon.svg",
-    alt: "logo",
-    title: "Shadcnblocks.com",
-  },
   sections = defaultSections,
-  description = "A collection of components for your startup business or side project.",
+  description = "Praktijk 26",
   socialLinks = defaultSocialLinks,
-  copyright = "© 2024 Shadcnblocks.com. All rights reserved.",
+  copyright = "© 2025 Praktijk 26. All rights reserved.",
   legalLinks = defaultLegalLinks,
 }: Footer7Props) => {
   return (

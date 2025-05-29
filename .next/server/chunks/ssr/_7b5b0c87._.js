@@ -915,7 +915,7 @@ const Hero34 = ()=>{
                             children: "Welkom bij Praktijk 26"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/hero34.tsx",
-                            lineNumber: 11,
+                            lineNumber: 7,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -923,28 +923,28 @@ const Hero34 = ()=>{
                             children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig doloremque mollitia fugiat omnis! Porro facilis quo animi consequatur. Explicabo."
                         }, void 0, false, {
                             fileName: "[project]/components/sections/hero34.tsx",
-                            lineNumber: 14,
+                            lineNumber: 10,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/hero34.tsx",
-                    lineNumber: 10,
+                    lineNumber: 6,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/hero34.tsx",
-                lineNumber: 9,
+                lineNumber: 5,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/sections/hero34.tsx",
-            lineNumber: 8,
+            lineNumber: 4,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/hero34.tsx",
-        lineNumber: 7,
+        lineNumber: 3,
         columnNumber: 5
     }, this);
 };
@@ -2338,12 +2338,7 @@ const defaultLegalLinks = [
         href: "#"
     }
 ];
-const Footer7 = ({ logo = {
-    url: "https://www.shadcnblocks.com",
-    src: "https://www.shadcnblocks.com/images/block/logos/shadcnblockscom-icon.svg",
-    alt: "logo",
-    title: "Shadcnblocks.com"
-}, sections = defaultSections, description = "A collection of components for your startup business or side project.", socialLinks = defaultSocialLinks, copyright = "© 2024 Shadcnblocks.com. All rights reserved.", legalLinks = defaultLegalLinks })=>{
+const Footer7 = ({ sections = defaultSections, description = "Praktijk 26", socialLinks = defaultSocialLinks, copyright = "© 2025 Praktijk 26. All rights reserved.", legalLinks = defaultLegalLinks })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "border-t bg-muted/50 py-12 md:py-16 lg:py-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2360,7 +2355,7 @@ const Footer7 = ({ logo = {
                                     children: description
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/footer7.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2373,23 +2368,23 @@ const Footer7 = ({ logo = {
                                                 children: social.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/footer7.tsx",
-                                                lineNumber: 95,
+                                                lineNumber: 89,
                                                 columnNumber: 19
                                             }, this)
                                         }, idx, false, {
                                             fileName: "[project]/components/sections/footer7.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 88,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/footer7.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/footer7.tsx",
-                            lineNumber: 87,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2401,7 +2396,7 @@ const Footer7 = ({ logo = {
                                             children: section.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/footer7.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 99,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2413,34 +2408,34 @@ const Footer7 = ({ logo = {
                                                         children: link.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/sections/footer7.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 106,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, linkIdx, false, {
                                                     fileName: "[project]/components/sections/footer7.tsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 102,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/footer7.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 100,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, sectionIdx, true, {
                                     fileName: "[project]/components/sections/footer7.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 98,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/footer7.tsx",
-                            lineNumber: 102,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/footer7.tsx",
-                    lineNumber: 86,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2451,7 +2446,7 @@ const Footer7 = ({ logo = {
                             children: copyright
                         }, void 0, false, {
                             fileName: "[project]/components/sections/footer7.tsx",
-                            lineNumber: 121,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2466,34 +2461,34 @@ const Footer7 = ({ logo = {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/footer7.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 119,
                                         columnNumber: 17
                                     }, this)
                                 }, idx, false, {
                                     fileName: "[project]/components/sections/footer7.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 118,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/footer7.tsx",
-                            lineNumber: 122,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/footer7.tsx",
-                    lineNumber: 120,
+                    lineNumber: 114,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/footer7.tsx",
-            lineNumber: 85,
+            lineNumber: 79,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/footer7.tsx",
-        lineNumber: 84,
+        lineNumber: 78,
         columnNumber: 5
     }, this);
 };
